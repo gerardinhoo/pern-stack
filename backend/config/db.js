@@ -11,5 +11,3 @@ export const sql = neon(
 )
 
 // This sql function we export is used as a tagged template literal, which allows to write sql queries safely
-
-// postgresql://neondb_owner:npg_tiRoQw79eDbl@ep-sparkling-poetry-a5mipr4d-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require

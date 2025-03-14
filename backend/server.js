@@ -17,7 +17,7 @@ app.use(cors());
 app.use(helmet()); //Helmet is a security middleware that helps you protect your app by setting various HTTP headers 
 app.use(morgan('dev')) //Log http requests
 
-app.get('/api/products', productRoutes )
+app.use('/api/products', productRoutes )
 
 // Create table for the database
 async function initDB() {
